@@ -1,0 +1,274 @@
+.App{
+    display: block;
+   }
+   .para {
+     /* Styles for the paragraph with class 'para' */
+     font-size: 16px; /* Sets the font size */
+     color: rgb(255, 0, 0); /* Sets the text color */
+     background-color: aqua;
+     margin: 0; /* Removes default margin */
+     padding: 0; /* Removes default padding */
+     /* You can add more styles as per your requirements */
+   }
+   body {
+     font-family: Arial, sans-serif;
+     background-color: #f7f7f7;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+   }
+   
+   .login-container {
+    background-image: url('/src/Images/doctoworld.png');
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 300px;
+     text-align: center;
+   }
+   
+   h2 {
+     margin-bottom: 20px;
+     color: #a200ff;
+   }
+   
+   input[type="text"],
+   input[type="password"] {
+     width: 95%;
+     padding: 10px;
+     margin: 10px 0;
+     border: 1px solid #0e0a0a;
+     border-radius: 4px;
+   }
+   
+   button[type="submit"] {
+     width: 100%;
+     padding: 10px;
+     background-color: #007bff;
+     color: #6c0c0c;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     margin-bottom: 10px;
+   }
+   
+   button[type="submit"]:hover {
+     background-color: #0056b3;
+   }
+   
+   .social-login button {
+     width: 100%;
+     padding: 10px;
+     margin: 5px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+   }
+   
+   .social-login button:first-child {
+     background-color: #3b5998; /* Facebook blue */
+     color: #fff;
+   }
+   
+   .social-login button:nth-child(2) {
+     background-color: #db4437; /* Google red */
+     color: #fff;
+   }
+   
+   .social-login button:last-child {
+     background-color: #555; /* Generic grey for another */
+     color: #fff;
+   }
+   
+   p {
+     margin: 15px 0;
+     color: #5f8aff;
+   }
+   
+   a {
+     color: #ffffff;
+     text-decoration: none;
+   }
+   
+   a:hover {
+     text-decoration: underline;
+   }
+   
+         /* Base styles for the body */
+         body {
+           font-family: Arial, sans-serif;
+           background-color: #f7f7f7;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100vh;
+           margin: 0;
+           padding: 0 10px; /* Added padding to prevent content from touching the screen edges */
+       }
+       
+       /* Styles for the register container */
+       .register-container {
+         background-image: url('/src/Images/doctoworld.png');
+           padding: 20px;
+           border-radius: 8px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+           width: 100%;
+           max-width: 400px; /* Sets a maximum width for larger screens */
+           text-align: center;
+           box-sizing: border-box;
+       }
+       
+       .register-container h2 {
+           margin-bottom: 20px;
+           color: #0902e0;
+       }
+       
+       /* Input styles */
+       .register-container input[type="text"],
+       .register-container input[type="email"],
+       .register-container input[type="password"] {
+           width: 100%;
+           padding: 10px;
+           margin: 10px 0;
+           border: 1px solid #ccc;
+           border-radius: 4px;
+           box-sizing: border-box; /* Ensures padding doesn't affect width */
+       }
+       
+       /* Submit button styles */
+       .register-container button[type="submit"] {
+           width: 100%;
+           padding: 10px;
+           background-color: #28a745;
+           color: #fff;
+           border: none;
+           border-radius: 4px;
+           cursor: pointer;
+           margin-top: 10px;
+           box-sizing: border-box;
+       }
+       
+       .register-container button[type="submit"]:hover {
+           background-color: #218838;
+       }
+       
+       /* Media query for mobile devices */
+       @media (max-width: 480px) {
+           .register-container {
+               padding: 15px; /* Adjusts padding for smaller screens */
+               width: 100%; /* Ensures full-width on small screens */
+           }
+           
+           .register-container input[type="text"],
+           .register-container input[type="email"],
+           .register-container input[type="password"] {
+               font-size: 14px; /* Slightly smaller font size on mobile */
+               padding: 8px; /* Adjust padding for better fit */
+           }
+           
+           .register-container button[type="submit"] {
+               padding: 8px; /* Adjust padding for better fit */
+               font-size: 16px; /* Consistent button text size */
+           }
+       }
+   
+   /* Phoneverification */
+       /* Base styles for the body */
+       body {
+         font-family: Arial, sans-serif;
+         background-color: #f7f7f7;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         margin: 0;
+         padding: 0 10px; /* Added padding to prevent content from touching the screen edges */
+     }
+     
+     /* Styles for the verification container */
+     .verification-container {
+       background-image: url('/src/Images/doctoworld.png');
+         padding: 20px;
+         border-radius: 8px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         width: 100%;
+         max-width: 400px;
+         text-align: center;
+         box-sizing: border-box;
+     }
+     
+     .verification-container h2 {
+         margin-bottom: 20px;
+         color: #0400ff;
+     }
+     
+     /* Input styles */
+     .verification-container input[type="text"] {
+         width: 100%;
+         padding: 10px;
+         margin: 10px 0;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box; /* Ensures padding doesn't affect width */
+     }
+     
+     /* Button styles */
+     .verification-container button {
+         width: 100%;
+         padding: 10px;
+         background-color: #007bff;
+         color: #fff;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+         margin-top: 10px;
+         box-sizing: border-box;
+     }
+     
+     .verification-container button:hover {
+         background-color: #0056b3;
+     }
+     
+     /* OTP section hidden initially */
+     .otp-section {
+         display: none;
+         margin-top: 20px;
+     }
+     
+     /* Resend OTP link */
+     .verification-container p {
+         margin-top: 20px;
+         color: #f7f7f7;
+     }
+     
+     .verification-container a {
+         color: #007bff;
+         text-decoration: none;
+     }
+     
+     .verification-container a:hover {
+         text-decoration: underline;
+     }
+     
+     /* Media query for mobile devices */
+     @media (max-width: 480px) {
+         .verification-container {
+             padding: 15px; /* Adjusts padding for smaller screens */
+             width: 100%; /* Ensures full-width on small screens */
+         }
+         
+         .verification-container input[type="text"] {
+             font-size: 14px; /* Slightly smaller font size on mobile */
+             padding: 8px; /* Adjust padding for better fit */
+         }
+         
+         .verification-container button {
+             padding: 8px; /* Adjust padding for better fit */
+             font-size: 16px; /* Consistent button text size */
+         }
+     }
+   
+   
+   
