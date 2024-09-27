@@ -13,8 +13,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact element={<Loginpage/>} />
-        <Route path="/register" exact element={<RegisterPage/>} />
-        <Route path="/verfication" exact element={<VerificationPage/>} />
+        <Route path="/register" exact element={<Registerpage/>} />
+        <Route path="/verfication" exact element={<Verficationpage/>} />
         <Route path="*" element={<PageNotFound/>} />
       </Routes>
     </BrowserRouter>
